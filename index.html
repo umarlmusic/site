@@ -7,6 +7,9 @@
 </head>
 <body>
 <body style="background-color: blue;">
+    <a href="https://soundcloud.com/umar-965095296" class="sticky-floating-link">
+  <img src="SoundCloud.png" alt="SoundCloud page hiperlink">
+</a>
     <center> <img src="logo.png" height="300"> <br>
           <audio autoplay controls>
         <source src="Umarł - Litwa Cannabis Orgy 2000.mp3" type="audio/mpeg">
@@ -54,8 +57,6 @@
 <p><font color="blue">Umarł' debut album entirely<br>
    created and recorded by<br>
 ↣𝙰б𝚜𝚟𝚛д p𝚊𝚐𝚊η↢.</p><br>
-        <h4><a href="https://soundcloud.com/umar-965095296" target="_self"><b style="color: rgb(247, 150, 70);">SoundCloud</b></a></h4>
-
 
     </center>
 </body>
@@ -68,5 +69,15 @@
             background-attachment: fixed; 
             margin: 0; 
         }
-        </style>
+        .sticky-floating-link {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  transition: transform 0.3s ease;
+}
+
+.sticky-floating-link:hover {
+  transform: scale(1.1);
+}        </style>
 </html>
